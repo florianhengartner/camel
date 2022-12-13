@@ -843,7 +843,7 @@ Then throw it as you like
 
 [source,java]
 ----
-from(routerEndpointURI).setFaultBody(constant(SOAP_FAULT));
+from(routerEndpointURI).setBody(constant(SOAP_FAULT));
 ----
 
 
